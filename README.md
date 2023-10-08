@@ -9,7 +9,7 @@
 <br>
 
 ## Screenshot
-<summary>
+<summary> 
 <p align="center">
     <img src="https://github.com/isaandreanme/portal/blob/main/Screenshoot/1.png?raw=true" />
     <br>

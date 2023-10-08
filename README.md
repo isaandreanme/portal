@@ -9,6 +9,7 @@
 <br>
 
 ## Screenshot
+<summary>
 <p align="center">
     <img src="https://github.com/isaandreanme/portal/blob/main/Screenshoot/1.png?raw=true" />
     <br>
@@ -50,7 +51,9 @@
     <br>
     <img src="https://github.com/isaandreanme/portal/blob/main/Screenshoot/20.png?raw=true" />
     <br>
+    
 </p>
+</summary>
 
 
 ## Demo

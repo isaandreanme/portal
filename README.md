@@ -56,9 +56,10 @@
 ## Demo
 
 https://p3mi.bitewild.com/
-
+<br>
 Email : demo@admin.com
-Pass : 123456789
+<br>
+Password : 123456789
 
 ## Framework
 <p align="center">

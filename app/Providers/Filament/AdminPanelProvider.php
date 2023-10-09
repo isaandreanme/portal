@@ -117,12 +117,12 @@ class AdminPanelProvider extends PanelProvider
             ->navigationItems([
                 NavigationItem::make('Lihat Website')
                     ->group('WEBSITE')
-                    ->url('https://nahelindopratama.com', shouldOpenInNewTab: true)
+                    ->url('#', shouldOpenInNewTab: true)
                     ->sort(-3)
                     ->icon('heroicon-o-viewfinder-circle'),
                 NavigationItem::make('Admin Website')
                     ->group('WEBSITE')
-                    ->url('https://nahelindopratama.com/wp-admin', shouldOpenInNewTab: true)
+                    ->url('#', shouldOpenInNewTab: true)
                     ->sort(-3)
                     ->icon('heroicon-o-wrench-screwdriver'),
             ])

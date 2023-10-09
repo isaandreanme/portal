@@ -423,8 +423,9 @@ class PendaftaranResource extends Resource
                     ->timezone('UTC +7'),
 
                 SelectFilter::make('Kantor')->relationship('Kantor', 'nama'),
+                SelectFilter::make('Sponsor')->relationship('Sponsor', 'nama'),
                 TernaryFilter::make('data_lengkap'),
-            ], layout: FiltersLayout::AboveContentCollapsible)->filtersFormColumns(3)
+            ], layout: FiltersLayout::AboveContentCollapsible)->filtersFormColumns(4)
             ->actions([
                 Tables\Actions\ActionGroup::make([
                     // Tables\Actions\ViewAction::make(),

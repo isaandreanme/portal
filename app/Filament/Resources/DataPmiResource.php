@@ -565,7 +565,12 @@ class DataPmiResource extends Resource
                 TernaryFilter::make('invoice_toyo')->label('INV TOYO'),
                 TernaryFilter::make('invoice_agency')->label('INV AGENCY'),
                 SelectFilter::make('Pengalaman')->relationship('Pengalaman', 'nama')->label('PENGALAMAN'),
-            ], layout: FiltersLayout::AboveContentCollapsible)->filtersFormColumns(4)
+            ], layout: FiltersLayout::AboveContentCollapsible)
+                ->filtersTriggerAction(
+                    fn (Action $action) => $action
+                        ->button()
+                        ->label('FILTER'),
+                        )->filtersFormColumns(4)
 
 
             ->actions([
